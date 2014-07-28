@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.preserve_paths = "OoyalaSDK-iOS/libOoyalaSDK.a"
 
 
-  s.frameworks  = "AVFoundation","CFNetwork","CoreMedia","CoreText","MediaPlayer","Security","SystemConfiguration"
+  s.frameworks  = "AVFoundation","CFNetwork","CoreMedia","CoreText","MediaPlayer","Security","SystemConfiguration","MediaAccessibility"
   s.libraries = "c++","xml2","z","OoyalaSDK"
   s.requires_arc = false
 

@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.libraries = "c++","xml2","z","OoyalaSDK"
   s.requires_arc = false
 
-  s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/Ooyala/OoyalaSDK-iOS\"" }
+  s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/WSI_Ooyala/OoyalaSDK-iOS\"" }
 
 end

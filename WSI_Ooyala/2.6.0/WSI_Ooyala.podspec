@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :http => "http://s3.amazonaws.com/lgary-experimental/OoyalaSDK-iOS-2.6.0.zip" }
+  s.source       = { :http => "http://s3.amazonaws.com/whosay-resources/iOS-pods/OoyalaSDK-iOS-2.6.0.zip" }
 
   s.source_files  = "Headers", "OoyalaSDK-iOS/Headers/*.h"
   s.preserve_paths = "OoyalaSDK-iOS/libOoyalaSDK.a"
